@@ -1,0 +1,80 @@
+/* Base styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #39393A;
+    color: #FFD5FF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+#logo {
+    width: 150px; /* Adjust the size as needed */
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 4em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+nav {
+    background-color: #D64550; /* Different color for the navigation tabs */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #FFD5FF;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #9B9B93; /* Slightly different hover color */
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #ffffff;
+    border: 1px solid #9B9B93;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #39393A;
+    color: #FFD5FF;
+    text-align: center;
+    padding: 10px;
+}
